@@ -6,7 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "deploy": "npm install && npm run build && npm run start"
   },
   "repository": {
     "type": "git",
